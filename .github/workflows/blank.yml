@@ -34,3 +34,8 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+          
+      - name: Printar mensagem
+        run: |
+          echo Olá mundo. Esta é uma mensagem teste
+          echo E esta é para confirmar que teve uma mensagem teste.
